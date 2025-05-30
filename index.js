@@ -53,7 +53,7 @@ https://ilariabianchi.github.io/game-tris/
 bot.onText(/\/memory/, (msg) => {
   const chatId = msg.chat.id;
   bot.sendMessage(chatId, `
-gioca a memory:
+gioca al memory:
 https://ilariabianchi.github.io/memory-game/
 `);
 });
